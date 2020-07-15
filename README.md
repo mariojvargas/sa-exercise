@@ -29,7 +29,7 @@
 * I am getting inconsistent results for Dan in example file.
   - The expected output for Dan is: 
     * `Dan: 39 miles @ 47 mph`
-  - However, my calculations for the average speed is off by 3:
+  - However, my calculations for the average speed is off by 3. I even did this by hand and derived the same calculation (Average speed for Dan is `50`):
     * `Dan: 39 miles @ 50 mph`
   - I tried manipulating the distances read in and calculated speeds by obtaining the floor value (`Math.Floor()`) but the least I got was `48 mph`.
   - Having someone to talk to for clarification would have helped me to understand what I was missing.
