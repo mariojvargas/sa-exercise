@@ -3,7 +3,13 @@ using System.Collections.Generic;
 
 namespace Mjv.TripReportGenerator
 {
-    public class DriverRepository
+    public interface IDriverRepository
+    {
+        void Add(string name);
+        void AddTrip(string driverName, Trip trip);
+    }
+
+    public class DriverRepository : IDriverRepository
     {
         private static IDictionary<string, Driver> Drivers = new Dictionary<string, Driver>(StringComparer.InvariantCultureIgnoreCase);
 

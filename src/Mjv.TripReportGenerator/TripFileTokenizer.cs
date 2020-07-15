@@ -29,7 +29,7 @@ namespace Mjv.TripReportGenerator
             const char tokenSeparator = ' ';
             const int initialSplitCount = 2;
 
-            var tokens = currentLine?.Split(tokenSeparator, initialSplitCount, StringSplitOptions.RemoveEmptyEntries);
+            var tokens = currentLine.Split(tokenSeparator, initialSplitCount, StringSplitOptions.RemoveEmptyEntries);
             if (tokens.Length == 0)
             {
                 return null;
