@@ -40,6 +40,7 @@
   - Data
   - Main (console app)
   - etc.
+* Organize files into folders (models, repositories, services, etc.).
 * Add error handling logic.
 * Refactor Driver Repository to use Entity Framework Core with an in-memory database.
 * Add unit tests.
