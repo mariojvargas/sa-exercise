@@ -6,6 +6,11 @@
 * Console application
 * LINQ
 
+## Tools used
+
+* Visual Studio Code 1.42.1 for Mac OS
+* EditorConfig
+
 ## Patterns in use
 
 * Factory
