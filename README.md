@@ -56,11 +56,25 @@
 From the solution root:
 
 ```
-dotnet run --project ./src/Mjv.TripReportGenerator
+$ dotnet run --project ./src/Mjv.TripReportGenerator
 ```
 
 When prompted for the file name, enter
 
 ```
 example-trip.txt
+```
+
+## Example execution
+
+```
+Enter path to trip file:
+example-trip.txt
+You entered: example-trip.txt
+
+REPORT:
+=======
+Alex: 42 miles @ 34 mph
+Dan: 39 miles @ 50 mph
+Bob: 0 miles
 ```
