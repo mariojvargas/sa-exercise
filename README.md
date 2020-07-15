@@ -32,7 +32,8 @@
 
 ## What I would do differently
 
-* Implement dependency injection
+* Implement dependency injection.
+* Use asynchronous methods.
 * Organize solution into multiple projects:
   - Core
   - Infrastructure
