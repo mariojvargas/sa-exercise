@@ -24,7 +24,7 @@
 ## Challenges
 
 * The requirement "*Discard any trips that average a speed of less than 5 mph or greater than 100 mph*" was not immediately clear to me.
-  - I was not sure whether we were excluding trip speeds of less than 5 MPH or over 100 MPH since the example provided did not showcase this scenario.
+  - I was not sure whether we were excluding trip speeds of less than 5 MPH or over 100 MPH since the example provided did not showcase this scenario. In addition, this requirement doesn't explain why `Bob` appears in the results since there are no trip entries for him.
   - I tried asking recruiter for clarification but my email was not answered in time.
 * I am getting inconsistent results for Dan in example file.
   - The expected output for Dan is: 
